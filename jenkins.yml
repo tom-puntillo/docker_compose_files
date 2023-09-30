@@ -5,8 +5,8 @@ services:
         image: jenkins/jenkins
         ports:
         - 8080:8080
-    volumes:
-    - jenkins_volume:/var/jenkins_home
+        volumes:
+        - jenkins_volume:/var/jenkins_home
     
 volumes:
 - jenkins_volume:
