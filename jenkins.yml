@@ -9,4 +9,4 @@ services:
             - jenkins_volume:/var/jenkins_home
     
 volumes:
-- jenkins_volume:
+    jenkins_volume:
